@@ -8,3 +8,14 @@
 //
 //
 // Your code here
+
+const Oven = require('./oven');
+const {Cookie, ChocolateCake, NutCake, CheeseCake} = require('./cookie');
+
+let oven = new Oven();
+let keju = new CheeseCake();
+
+oven.cook = keju;
+oven.bake(55);
+console.log(oven._cake);
+// console.log(oven._cake._bakeTime);
