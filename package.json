@@ -1,0 +1,26 @@
+{
+  "name": "cookies-and-ovens",
+  "version": "1.0.0",
+  "description": "cookies-and-ovens",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uber-fox-2018/cookies-and-ovens.git"
+  },
+  "keywords": [
+    "cookies-and-oven"
+  ],
+  "author": "arisupriatna14",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uber-fox-2018/cookies-and-ovens/issues"
+  },
+  "homepage": "https://github.com/uber-fox-2018/cookies-and-ovens#readme",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "sleep": "^5.1.1"
+  }
+}
