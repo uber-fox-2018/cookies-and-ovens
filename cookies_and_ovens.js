@@ -8,3 +8,14 @@
 //
 //
 // Your code here
+
+const Oven = require('./Oven.js')
+const CheeseCake = require('./CheeseCake.js')
+
+let oven = new Oven()
+let keju = new CheeseCake()
+  
+oven.cook = keju
+oven.bake(45)
+console.log(oven._cake)
+console.log(oven._cake._bakeTime)
